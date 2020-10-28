@@ -19,11 +19,7 @@ function pd(somma) {
 
 
 
-if(pd(somma) == "pari" && utentePd == "pari"){
-  alert("hai vinto!");
-} else if(pd(somma) == "dispari" && utentePd == "pari"){
-  alert("hai perso!");
-}else if(pd(somma) == "dispari" && utentePd == "dispari"){
+if(pd(somma) == utentePd){
   alert("hai vinto!");
 } else {
   alert("hai perso!");
