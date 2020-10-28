@@ -25,7 +25,7 @@ if(pd(somma) == "pari" && utentePd == "pari"){
   alert("hai perso!");
 }else if(pd(somma) == "dispari" && utentePd == "dispari"){
   alert("hai vinto!");
-} else if(pd(somma) == "pari" && utentePd == "dispari"){
+} else {
   alert("hai perso!");
 }
 
